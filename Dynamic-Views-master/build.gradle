@@ -11,6 +11,9 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
+plugins {
+    id 'maven-publish'
+}
 
 allprojects {
     repositories {
