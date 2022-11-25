@@ -27,16 +27,3 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-afterEvaluate {
-    publishing {
-        publications {
-// Creates a Maven publication called "release".
-            release(MavenPublication) {
-                from components.java
-                groupId = 'com.github.c1ph3r'
-                artifactId = 'DynamicViews'
-                version = '1.1'
-            }
-        }
-    }
-}
