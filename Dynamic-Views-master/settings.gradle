@@ -1,2 +1,2 @@
-rootProject.name = "Sample"
+rootProject.name = "sample"
 include ':library'
