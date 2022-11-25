@@ -1,18 +1,2 @@
-
-pluginManagement {
-    repositories {
-        google()
-        mavenCentral()
-        maven { url "https://jitpack.io" }
-    }
-}
-dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
-    repositories {
-        google()
-        mavenCentral()
-        maven { url "https://jitpack.io" }
-    }
-}
-rootProject.name = "Dynamic-Views-master"
-include ':library'
+rootProject.name = "Sample"
+include ':Library'
