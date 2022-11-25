@@ -1,9 +1,9 @@
 
 pluginManagement {
     repositories {
-        gradlePluginPortal()
         google()
         mavenCentral()
+        maven { url "https://jitpack.io" }
     }
 }
 dependencyResolutionManagement {
@@ -11,7 +11,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url "https://jitpack.io" }
     }
 }
-rootProject.name = "sample"
+rootProject.name = "Dynamic-Views-master"
 include ':library'
