@@ -1,2 +1,2 @@
-rootProject.name = "Sample"
-include ':Library'
+rootProject.name = "Dynamic-Views-master"
+include ':library'
